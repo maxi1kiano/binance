@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es-AR" ng-app="App" ng-controller="AppCtrl as vm">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" />  
+  <title>{{ price | number:0 }} | BTCUSDT</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />  
+  <link rel="stylesheet" href="assets/css/progress.css" />   
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <script language="javascript" src="assets/js/angular.min.js"></script>  
+  <script language="javascript" src="assets/js/jquery.min.js"></script>   
+</head>
+<body>
+  <div class="progress-bar">
+    <div id="in" class="progress-bar-in"></div>
+  </div>
+
+	<div id="container">		
+		<div id="center-screen" class="center-screen">
+	  	{{ price | number:0 }}
+		</div>
+
+	</div>	
+</body>
+
+<script language="javascript" src="assets/js/controller.js"></script>
+<script language="javascript" src="assets/js/init.js"></script>
+</html>

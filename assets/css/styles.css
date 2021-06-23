@@ -1,0 +1,33 @@
+* {
+	padding: 0;
+	margin: 0;
+}		
+  
+html {
+  background-color: #1b1d23;
+}
+	
+body {
+  font-size: 25em;  
+}
+	
+#container {
+  width:100%;  
+  /*outline:1px solid red;*/
+}
+
+.center-screen {
+  font-family: "arial";  			  
+  color: #34bd86;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);	
+}			
+	 		
+/* portrait */
+@media screen and (orientation: portrait) {
+	.center-screen {
+		font-size: 50%;
+	}
+}	
