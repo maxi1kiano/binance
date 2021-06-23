@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Binance Wallpaper](https://github.com/maxi1kiano/binance_wallpaper/blob/master/screenshot.png?raw=true)
+![Binance Wallpaper](https://github.com/maxi1kiano/binance/blob/master/screenshot.png?raw=true)
 
 Este proyecto utiliza la api pública de [binance](https://academy.binance.com/en) para mostrar la cotización actual de BTCUSDT en fullscreen.
 
